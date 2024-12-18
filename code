@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Color Change</title>
+</head>
+<body>
+   <button type="button" onclick="document.getElementById('onImg').src='pic_bulbon.gif'"> turn on light</button>
+
+   <img id="onImg" src="pic_bulbon.gif" style="width: 100px;">
+
+   <button type="button" onclick="document.getElementById('onImg').src='pic_bulbof.gif'">Turn off light</button>
+</body>
+</html>
